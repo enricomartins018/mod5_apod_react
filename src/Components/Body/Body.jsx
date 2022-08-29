@@ -1,10 +1,10 @@
 import React from 'react'
-
+import S from './Body.module.css'
 const Body = () => {
   return (
-    <body>
+    <body className={S.body}>
         <section>
-            <button>Navegar</button>
+          <p>Hello World</p>
         </section>
     </body>
   )
