@@ -1,9 +1,39 @@
-body{
-    width: 50vw;
-    height: 70vh;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.midia{
-    width: 300px;
-    height: 300px;
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60vw;
+    height: 70vh;
+    gap: 1rem;
+}
+
+.midia {
+    width: 50vw;
+    height: 40vh;
+}
+
+.btnPattern {
+    width: 10vw;
+    height: 5vh;
+    color: darkslateblue;
+    font-size: 1rem;
+    border: solid 0.1rem darkslateblue;
+    border-radius: 1rem;
+}
+
+.btnPattern:hover {
+    color: white;
+    background-color: darkslateblue;
+    cursor: pointer;
+    border: solid 0.1rem #ffffff;
+    border-radius: 1rem;
 }
