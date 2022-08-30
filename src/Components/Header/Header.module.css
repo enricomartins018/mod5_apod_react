@@ -1,9 +1,11 @@
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100vw;
-    height: 20vh;
+    height: 15vh;
     background-color: darkslateblue;
+    font-size: 0.7rem;
 }

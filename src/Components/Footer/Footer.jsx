@@ -4,8 +4,7 @@ import S from './Footer.module.css'
 const Footer = () => {
   return (
     <footer className={S.footer}>
-        <p>Todos os direitos reservados.</p>
-        <p>Para fins educacionais</p>
+        <p>Projeto feito para fins educacionais.</p>
     </footer>
   )
 }

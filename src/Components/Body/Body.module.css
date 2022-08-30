@@ -11,29 +11,62 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 60vw;
-    height: 70vh;
+    width: 90vw;
+    height: 100vh;
+}
+
+.containerApi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.containerSubmit{
+    display: flex;
+    flex-direction: row;
     gap: 1rem;
 }
 
 .midia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50vw;
-    height: 40vh;
+    height: 50vh;
+}
+
+.inputDate{
+    width: 10vw;
+    height: 5vh;
+    color: white;
+    font-size: 1rem;
+    border: solid 0.1rem #ffffff;
+    background-color: darkslateblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 120%;
+    border-radius: 5%;
 }
 
 .btnPattern {
     width: 10vw;
-    height: 5vh;
-    color: darkslateblue;
-    font-size: 1rem;
-    border: solid 0.1rem darkslateblue;
-    border-radius: 1rem;
-}
-
-.btnPattern:hover {
+    height: 5.5vh;
     color: white;
+    font-size: 1rem;
+    border: solid 0.1rem #ffffff;
     background-color: darkslateblue;
     cursor: pointer;
-    border: solid 0.1rem #ffffff;
-    border-radius: 1rem;
+    font-size: 120%;
+    border-radius: 5%;
+}
+
+.btnPattern:hover{
+    color: darkslateblue;
+    background-color: white;
+    border: solid 0.1rem darkslateblue;
 }
